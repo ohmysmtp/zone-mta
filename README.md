@@ -121,7 +121,7 @@ X-Sending-Zone: zone-identifier
 
 For example if you have a Sending Zone called "zone-identifier" set then messages with such header are routed through this Sending Zone.
 
-> **NB** This behavior is enabled by default only for 'api' and 'bounce' zones, see the `allowRoutingHeaders` option in default config for details
+> **NB** This behavior is enabled by default only for 'api' and 'bounce' interfaces, see the `allowRoutingHeaders` option in default config for details
 
 #### Routing based on specific header value
 
